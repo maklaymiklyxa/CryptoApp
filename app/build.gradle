@@ -52,6 +52,10 @@ dependencies {
     implementation deps.support.recyclerview
     implementation deps.constraint_layout
 
+    // Navigation components
+    implementation deps.navigation.fragment
+    implementation deps.navigation.ui
+
     // Architecture components
     implementation deps.lifecycle.runtime
     implementation deps.lifecycle.extensions
@@ -109,4 +113,5 @@ dependencies {
     androidTestImplementation deps.support.v4
     androidTestImplementation deps.support.app_compat
     androidTestImplementation deps.support.design
+
 }

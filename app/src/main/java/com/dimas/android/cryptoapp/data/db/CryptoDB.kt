@@ -8,7 +8,7 @@ import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.dimas.android.cryptoapp.data.db.CryptoDB.Companion.DB_VERSION
 import com.dimas.android.cryptoapp.data.db.dao.CryptoDAO
-import com.dimas.android.cryptoapp.data.db.entity.CryptoData
+import com.dimas.android.cryptoapp.data.entity.CryptoData
 
 @Database(
     entities = [CryptoData::class],
